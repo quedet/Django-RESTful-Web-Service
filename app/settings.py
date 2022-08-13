@@ -39,7 +39,8 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     # Django Rest Framework
     'rest_framework',
-    'api.apps.ApiConfig'
+    # Drones Application
+    'drones.apps.DronesConfig'
 ]
 
 MIDDLEWARE = [
